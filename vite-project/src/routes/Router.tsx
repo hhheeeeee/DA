@@ -17,6 +17,10 @@ const router = createBrowserRouter([
         path: "/smart",
         element: <SmartThings />,
       },
+      {
+        path: "/device",
+        element: <SmartThings />,
+      },
     ],
   },
   {

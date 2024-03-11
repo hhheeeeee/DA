@@ -1,36 +1,34 @@
-// import SvgColor from 'src/components/svg-color';
-import { SvgColor } from "assets/svg-color/svg-color";
-// ----------------------------------------------------------------------
-
-// const icon = (name) => (
-//   <SvgColor src={`/assets/icons/navbar/${name}.svg`} sx={{ width: 1, height: 1 }} />
-// );
+import Star from "assets/ui/smartNavbar/Star";
+import Device from "assets/ui/smartNavbar/Device";
+import Automatic from "assets/ui/smartNavbar/Automatic";
+import Life from "assets/ui/smartNavbar/Life";
+import Menu from "assets/ui/smartNavbar/Menu";
 
 const navConfig = [
   {
     title: "/smart",
-    path: "/",
-    icon: SvgColor.star,
+    path: "/smart",
+    Icon: Star,
   },
   {
-    title: "/smart",
-    path: "/",
-    icon: SvgColor.device,
+    title: "/device",
+    path: "/device",
+    Icon: Device,
   },
   {
-    title: "/smart",
-    path: "/",
-    icon: SvgColor.automatic,
+    title: "/automatic",
+    path: "/automatic",
+    Icon: Automatic,
   },
   {
-    title: "/smart",
-    path: "/",
-    icon: SvgColor.star,
+    title: "/life",
+    path: "/life",
+    Icon: Life,
   },
   {
-    title: "/smart",
-    path: "/",
-    icon: SvgColor.menu,
+    title: "/menu",
+    path: "/menu",
+    Icon: Menu,
   },
 ];
 
