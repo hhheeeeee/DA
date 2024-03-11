@@ -36,7 +36,10 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    font-family: "notosans";
+    /* font-family: "notosans"; */
+	font-family: 'SamsungSans', sans-serif;
+	box-sizing: border-box;
+
 }
 ol, ul {
 	list-style: none;
@@ -53,10 +56,35 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-@font-face {
-    font-family: "notosans";
-    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+input {
+	border: none;
+	background-color: transparent;
+}
+input:focus {
+	outline:none;
 }
 
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	-webkit-text-fill-color: #000;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    box-shadow: 0 0 0px 1000px #fff inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+/* @font-face {
+    font-family: "notosans";
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+} */
+
+@font-face {
+    font-family: 'SamsungSans';
+    src: url('./fonts/SamsungSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 `;
