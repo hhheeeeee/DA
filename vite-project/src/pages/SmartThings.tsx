@@ -1,5 +1,5 @@
-import { Container, Title, Plus } from "pages/loginStyle";
-import SmartBottomNavbar from "components/smartbottomnavbar";
+import { Container, Title, Plus } from "@/pages/loginStyle";
+import SmartBottomNavbar from "@/components/smartbottomnavbar";
 
 function SmartThings() {
   return (

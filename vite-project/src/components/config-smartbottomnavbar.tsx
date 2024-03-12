@@ -1,8 +1,8 @@
-import Star from "assets/ui/smartNavbar/Star";
-import Device from "assets/ui/smartNavbar/Device";
-import Automatic from "assets/ui/smartNavbar/Automatic";
-import Life from "assets/ui/smartNavbar/Life";
-import Menu from "assets/ui/smartNavbar/Menu";
+import Star from "@/assets/ui/smartNavbar/Star";
+import Device from "@/assets/ui/smartNavbar/Device";
+import Automatic from "@/assets/ui/smartNavbar/Automatic";
+import Life from "@/assets/ui/smartNavbar/Life";
+import Menu from "@/assets/ui/smartNavbar/Menu";
 
 const navConfig = [
   {

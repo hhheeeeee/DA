@@ -1,9 +1,9 @@
 // import { lazy, Suspense } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import ProtectedRoutes from "./ProtectedRoutes";
-import Login from "pages/Login";
-import SmartThings from "pages/SmartThings";
-import PageNotFound from "pages/PageNotFound";
+import Login from "@/pages/Login";
+import SmartThings from "@/pages/SmartThings";
+import PageNotFound from "@/pages/PageNotFound";
 
 const router = createBrowserRouter([
   {

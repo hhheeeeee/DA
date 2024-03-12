@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { theme } from "styles/theme";
+import { theme } from "@/styles/theme";
 
 export const Container = styled.div`
   background: linear-gradient(45deg, #99a1cb, #5f8db8);
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   align-items: center;

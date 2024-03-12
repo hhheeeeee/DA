@@ -1,5 +1,6 @@
-import { Container, Title, Form, Button } from "pages/loginStyle";
+import { Container, Title, Form, Button } from "@/pages/loginStyle";
 import { useNavigate } from "react-router-dom";
+
 function Login() {
   const navigate = useNavigate();
 

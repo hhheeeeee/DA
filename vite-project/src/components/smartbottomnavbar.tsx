@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import navConfig from "./config-smartbottomnavbar";
+import navConfig from "@/components/config-smartbottomnavbar";
 import { useLocation, useNavigate } from "react-router-dom";
 
 function SmartBottomNavbar() {
@@ -24,7 +24,7 @@ function SmartBottomNavbar() {
 export default SmartBottomNavbar;
 
 const NavContainer = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 12dvh;
   background-color: #94a1cb;
   position: absolute;
